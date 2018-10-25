@@ -1199,7 +1199,12 @@ a {
       display: -ms-flexbox;
       display: flex; }
   .logo span {
-    white-space: normal; } }
+    white-space: normal; }
+  .test-steps__head:nth-child(1) {
+    position: relative;
+    top: 15px;
+    left: 10px;
+    line-height: 30px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
