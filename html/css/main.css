@@ -1058,7 +1058,9 @@ a {
 
 .fixed-last-cell td:last-child,
 .fixed-last-cell th:last-child {
-  min-width: 40%; }
+  min-width: 40%;
+  max-width: 40%;
+  width: 40%; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
